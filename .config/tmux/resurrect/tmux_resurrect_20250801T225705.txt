@@ -1,0 +1,5 @@
+pane	S101	1	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	nvim	:nvim .
+pane	S101	2	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/.local/share/nvim/lazy	1	zsh	:
+window	S101	1	:nvim	1	:*	c37e,140x46,0,0,1	:
+window	S101	2	:zsh	0	:-	c03f,174x54,0,0,2	:
+state	S101	
