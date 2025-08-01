@@ -1,0 +1,5 @@
+pane	S101	1	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Library/CloudStorage/OneDrive-Personal/Coding/nvim_practice	1	zsh	:
+pane	S101	2	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade	1	ssh	:ssh vicharak@10.70.1.82
+window	S101	1	:zsh	0	:-	c03f,174x54,0,0,2	:
+window	S101	2	:ssh	1	:*	c380,140x46,0,0,3	:
+state	S101	

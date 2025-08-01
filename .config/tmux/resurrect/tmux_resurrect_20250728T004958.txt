@@ -1,0 +1,9 @@
+pane	S1	0	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade	1	zsh	:
+pane	S101	0	0	:-	0	 Gemini - MyBrain 	:/Users/rshewade/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/MyBrain	1	zsh	:
+pane	S101	1	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade	1	ssh	:ssh vicharak@10.70.1.82
+pane	S101	2	0	:	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/MyBrain	1	nvim	:nvim /Users/rshewade/.config/kitty/kitty.conf
+window	S1	0	:zsh	1	:*	acbd,133x40,0,0,0	:
+window	S101	0	:Gemini	0	:-	acbe,133x40,0,0,1	off
+window	S101	1	:ssh	1	:*	acbf,133x40,0,0,2	:
+window	S101	2	:nvim	0	:	acc1,133x40,0,0,4	:
+state	S101	S1
