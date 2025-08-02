@@ -1,5 +1,0 @@
-pane	S101	0	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	nvim	:nvim file_lister_app.py
-pane	S101	1	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/dotfiles	1	zsh	:
-window	S101	0	:nvim	1	:*	be3e,174x44,0,0,1	:
-window	S101	1	:zsh	0	:-	be3f,174x44,0,0,2	:
-state	S101	

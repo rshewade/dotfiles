@@ -1,7 +1,0 @@
-pane	S1	0	0	:	0	 Gemini - MyBrain 	:/Users/rshewade/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/MyBrain	1	bash	:/bin/bash ./open-vault-w-gemini.sh
-pane	S1	1	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/.config/tmux	1	zsh	:
-pane	S1	2	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/.config/tmux	1	ssh	:ssh root@147.93.104.230
-window	S1	0	:Gemini	0	:	bf7d,140x45,0,0,0	off
-window	S1	1	:zsh	1	:*	bf7e,140x45,0,0,1	:
-window	S1	2	:ssh	0	:-	bf83,140x45,0,0,6	:
-state	S1	

@@ -1,6 +1,0 @@
-pane	S101	1	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade	1	nvim	:nvim .
-pane	S101	1	1	:*	1	 Gemini - MyBrain 	:/Users/rshewade/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/MyBrain	0	bash	:/bin/bash ./open-vault-w-gemini.sh
-pane	S101	2	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade	1	zsh	:
-window	S101	1	:nvim	1	:*	0a93,174x54,0,0{115x54,0,0,1,58x54,116,0,3}	:
-window	S101	2	:zsh	0	:-	c43f,174x55,0,0,2	:
-state	S101	

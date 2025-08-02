@@ -1,5 +1,0 @@
-pane	S101	0	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	nvim	:nvim .
-pane	S101	1	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/dotfiles	1	zsh	:
-window	S101	0	:nvim	1	:*	d241,174x49,0,0,4	:
-window	S101	1	:[tmux]	0	:-	d23e,174x49,0,0,1	:
-state	S101	

@@ -1,5 +1,0 @@
-pane	S101	1	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/dotfiles	1	zsh	:
-pane	S101	2	0	:-	0	Gf=24,s=1,v=1,S=3,I=7891235;MTIz	:/Users/rshewade	1	kitten	:kitten choose-fonts
-window	S101	1	:zsh	1	:*	d23e,174x49,0,0,1	:
-window	S101	2	:kitten	0	:-	c03f,174x54,0,0,2	:
-state	S101	
