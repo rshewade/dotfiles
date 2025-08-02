@@ -10,6 +10,7 @@ ln -sf ~/dotfiles/.config/tmux ~/.config/tmux
 echo "Symbolic links created."
 
 # 2. Install Tmux Plugin Manager
+mkdir -p ~/.config/tmux/resurrect
 echo "Installing Tmux Plugin Manager..."
 if [ -d "$HOME/.config/tmux/plugins/tpm" ]; then
   echo "TPM already installed."
