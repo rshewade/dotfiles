@@ -1,0 +1,11 @@
+pane	S101	0	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	nvim	:nvim file_lister_app.py
+pane	S101	1	0	:-	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	zsh	:
+pane	S101	2	0	:	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	opencode	:opencode
+pane	my_session	0	1	:*	0	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	0	nvim	:nvim
+pane	my_session	0	1	:*	1	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	0	opencode	:opencode
+pane	my_session	0	1	:*	2	Rajendras-M4-MacBook-Air.local	:/Users/rshewade/Documents/NewCode	1	zsh	:
+window	S101	0	:nvim	1	:*	cd9e,240x58,0,0,1	:
+window	S101	1	:zsh	0	:-	cd9f,240x58,0,0,2	:
+window	S101	2	:opencode	0	:	cda0,240x58,0,0,3	:
+window	my_session	0	:main	1	:*	371c,240x58,0,0{175x58,0,0,4,64x58,176,0[64x40,176,0,5,64x17,176,41,6]}	off
+state	my_session	
