@@ -27,6 +27,22 @@ return {
       }
     },
     "nvim-tree/nvim-web-devicons",
+    -- Add Tree-sitter if not already in your setup!
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
   },
+  config = function()
+    -- OPTIONAL: AUTO-INSTALL TREE-SITTER PARSERS FOR MARKDOWN
+    local ts_status, parsers = pcall(require, "nvim-treesitter.parsers")
+    if ts_status and parsers and parsers.installed_parsers then
+      local install = require("nvim-treesitter.install")
+      for _, lang in ipairs({ "markdown", "markdown_inline" }) do
+        if not vim.tbl_contains(parsers.installed_parsers(), lang) then
+          vim.schedule(function()
+            install.install(lang)
+          end)
+        end
+      end
+    end
+  end
 }
 
