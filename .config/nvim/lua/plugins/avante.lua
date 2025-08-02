@@ -9,10 +9,23 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
+    "echasnovski/mini.pick",
+    "nvim-telescope/telescope.nvim",
+    "hrsh7th/nvim-cmp",    -- Autocompletion for Avante commands/mentions
+    "ibhagwan/fzf-lua",    -- For file_selector provider 'fzf'
     -- Optional deps for best UI/UX:
     "stevearc/dressing.nvim",
+    "folke/snacks.nvim",
     "zbirenbaum/copilot.lua",
-    "MeanderingProgrammer/render-markdown.nvim",
+        -- Enhanced Markdown rendering for Avante sidebar/chat:
+    {
+      "MeanderingProgrammer/render-markdown.nvim",
+      -- Recommended: only load for markdown/Avante filetypes
+      ft = { "markdown", "Avante" },
+      opts = {
+        file_types = { "markdown", "Avante" } -- configures filetypes handled
+      }
+    },
     "nvim-tree/nvim-web-devicons",
   },
 }
