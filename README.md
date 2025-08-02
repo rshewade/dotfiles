@@ -1,4 +1,5 @@
-# This provides setup of development environment including Kitty Terminal, Tmux and Neovim
+# Dotfiles Setup
+This provides setup of development environment including Kitty Terminal, Tmux and Neovim
 
 ## Kitty Terminal
 Includes kitty.conf file which includes settings for font (Font not included, install FiraCode Nerd font separately), Background with 0.90 transperency, powerline style statusbar
