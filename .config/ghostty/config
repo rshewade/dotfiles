@@ -1,0 +1,20 @@
+shell-integration-features = ssh-terminfo,ssh-env,cursor,title
+
+# Font
+font-family = FiraCode Nerd Font Mono
+font-size = 13
+adjust-cell-height = 20%
+
+# Theme
+theme = Gruvbox Dark
+
+# Background
+background-opacity = 0.9
+background-blur-radius = 20
+
+# Usability
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+scrollback-limit = 100000
+mouse-scroll-multiplier = precision:0.5,discrete:0.1

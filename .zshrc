@@ -57,3 +57,36 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# fzf (fuzzy finder)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# ripgrep (rg) - usually auto-available after brew install ripgrep
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"  # optional config file
+
+# lsd (exa successor)
+alias ls='lsd'
+alias ll='lsd -l'
+alias la='lsd -a'
+alias lla='lsd -la'
+alias lt='lsd --tree'
+
+# direnv
+eval "$(direnv hook zsh)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/Users/rajendrashewade/.bun/bin/bun "/Users/rajendrashewade/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
+
+# Added by Antigravity
+export PATH="/Users/rajendrashewade/.antigravity/antigravity/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/rajendrashewade/.lmstudio/bin"
+# End of LM Studio CLI section
+
+export PATH="$HOME/.local/bin:$PATH"
+
+. "$HOME/.local/bin/env"

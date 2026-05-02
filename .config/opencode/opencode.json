@@ -1,0 +1,40 @@
+{
+  "plugin": ["opencode-antigravity-auth@1.6.0",
+		"opencode-cmux"],
+  "provider": {
+    "google": {
+      "models": {
+        "antigravity-gemini-3-pro-high": {
+          "name": "Gemini 3 Pro High (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "claude-sonnet-4-5": {
+          "name": "Claude Sonnet 4.5 (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mgrep": {
+      "type": "local",
+      "command": ["mgrep", "mcp"],
+      "enabled": true
+    }
+  }
+}
