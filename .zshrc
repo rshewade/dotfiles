@@ -56,7 +56,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Shell integrations
 eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+# eval "$(zoxide init --cmd cd zsh)"  # moved to end of file (zoxide must init last)
 
 # fzf (fuzzy finder)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -90,3 +90,7 @@ export PATH="$PATH:/Users/rajendrashewade/.lmstudio/bin"
 export PATH="$HOME/.local/bin:$PATH"
 
 . "$HOME/.local/bin/env"
+
+# zoxide (must be initialized at the very end so it sees the final $PATH)
+# eval "$(zoxide init --cmd cd zsh)"  # previous: shadowed builtin cd
+eval "$(zoxide init zsh)"  # use z / zi; leave builtin cd untouched

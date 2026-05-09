@@ -4,9 +4,15 @@
 
 # 1. Create symbolic links for configurations
 echo "Creating symbolic links..."
-ln -sf ~/dotfiles/.config/kitty ~/.config/kitty
-ln -sf ~/dotfiles/.config/nvim ~/.config/nvim
-ln -sf ~/dotfiles/.config/tmux ~/.config/tmux
+# ln -sf ~/dotfiles/.config/kitty ~/.config/kitty
+# ln -sf ~/dotfiles/.config/nvim ~/.config/nvim
+# ln -sf ~/dotfiles/.config/tmux ~/.config/tmux
+if ! command -v stow >/dev/null 2>&1; then
+  echo "Error: GNU stow is not installed. Install with: brew install stow"
+  exit 1
+fi
+mkdir -p ~/.config
+stow -d "$HOME" -t "$HOME" dotfiles
 echo "Symbolic links created."
 
 # 2. Install Tmux Plugin Manager

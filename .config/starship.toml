@@ -12,3 +12,5 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 [package]
 disabled = true
 
+[docker_context]
+disabled = true
