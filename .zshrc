@@ -94,3 +94,6 @@ export PATH="$HOME/.local/bin:$PATH"
 # zoxide (must be initialized at the very end so it sees the final $PATH)
 # eval "$(zoxide init --cmd cd zsh)"  # previous: shadowed builtin cd
 eval "$(zoxide init zsh)"  # use z / zi; leave builtin cd untouched
+
+# Added by Antigravity IDE
+export PATH="/Users/rajendrashewade/.antigravity-ide/antigravity-ide/bin:$PATH"

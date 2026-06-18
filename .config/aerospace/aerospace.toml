@@ -55,8 +55,26 @@ automatically-unhide-macos-hidden-apps = false
     inner.vertical =    5
     outer.left =        0
     outer.bottom =      0
-    outer.top =         0 #[{ monitor."DELL*" = 20}, 0]
+    outer.top =         0
     outer.right =       0
+
+# =============================================================================
+# WORKSPACE TO MONITOR FORCE ASSIGNMENT
+# =============================================================================
+[workspace-to-monitor-force-assignment]
+# --- Primary Display Workspaces ---
+V = 'main'        # VS Code
+W = 'main'        # WezTerm
+B = 'main'   	# Browser (Arc)
+E = 'main'   	# eM Client
+O = 'main'   	# Obsidian
+
+# --- Secondary Display Workspaces --
+M = 'secondary'        # Messages
+C = 'secondary'   # Claude
+z = 'secondary'   # Zoom
+P = 'secondary'   # Phone (FaceTime)
+S = 'secondary'   # System Settings
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -113,70 +131,68 @@ automatically-unhide-macos-hidden-apps = false
     alt-equal = 'resize smart +50'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-    alt-1 = 'workspace 1'
-    alt-2 = 'workspace 2'
-    alt-3 = 'workspace 3'
-    alt-4 = 'workspace 4'
-    alt-5 = 'workspace 5'
-    alt-6 = 'workspace 6'
-    alt-7 = 'workspace 7'
-    alt-8 = 'workspace 8'
-    alt-9 = 'workspace 9'
+   # alt-1 = 'workspace 1'
+   # alt-2 = 'workspace 2'
+   # alt-3 = 'workspace 3'
+   # alt-4 = 'workspace 4'
+   # alt-5 = 'workspace 5'
+   # alt-6 = 'workspace 6'
+   # alt-7 = 'workspace 7'
+   # alt-8 = 'workspace 8'
+   # alt-9 = 'workspace 9'
     alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
     alt-b = 'workspace B'
     alt-c = 'workspace C'
     alt-d = 'workspace D'
-    # alt-e = 'workspace E'
-    # alt-f = 'workspace F'
-    # alt-g = 'workspace G'
-    # alt-i = 'workspace I'
-    # alt-m = 'workspace M'
-    # alt-n = 'workspace N'
-    # alt-o = 'workspace O'
-    # alt-p = 'workspace P'
-    # alt-q = 'workspace Q'
-    # alt-r = 'workspace R'
-    # alt-s = 'workspace S'
-    # alt-t = 'workspace T'
-    # alt-u = 'workspace U'
-    # alt-v = 'workspace V'
-    # alt-w = 'workspace W'
-    # alt-x = 'workspace X'
-    # alt-y = 'workspace Y'
-    # alt-z = 'workspace Z'
+    alt-e = 'workspace E'
+    alt-g = 'workspace G'
+    alt-i = 'workspace I'
+    alt-m = 'workspace M'
+    alt-n = 'workspace N'
+    alt-o = 'workspace O'
+    alt-p = 'workspace P'
+    alt-q = 'workspace Q'
+    alt-r = 'workspace R'
+    alt-s = 'workspace S'
+    alt-t = 'workspace T'
+    alt-u = 'workspace U'
+    alt-v = 'workspace V'
+    alt-w = 'workspace W'
+    alt-x = 'workspace X'
+    alt-y = 'workspace Y'
+    alt-z = ['workspace Z', 'layout accordion horizontal']
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-1 = 'move-node-to-workspace 1'
-    alt-shift-2 = 'move-node-to-workspace 2'
-    alt-shift-3 = 'move-node-to-workspace 3'
-    alt-shift-4 = 'move-node-to-workspace 4'
-    alt-shift-5 = 'move-node-to-workspace 5'
-    alt-shift-6 = 'move-node-to-workspace 6'
-    alt-shift-7 = 'move-node-to-workspace 7'
-    alt-shift-8 = 'move-node-to-workspace 8'
-    alt-shift-9 = 'move-node-to-workspace 9'
+   # alt-shift-1 = 'move-node-to-workspace 1'
+   # alt-shift-2 = 'move-node-to-workspace 2'
+   # alt-shift-3 = 'move-node-to-workspace 3'
+   # alt-shift-4 = 'move-node-to-workspace 4'
+   # alt-shift-5 = 'move-node-to-workspace 5'
+   # alt-shift-6 = 'move-node-to-workspace 6'
+   # alt-shift-7 = 'move-node-to-workspace 7'
+   # alt-shift-8 = 'move-node-to-workspace 8'
+   # alt-shift-9 = 'move-node-to-workspace 9'
     alt-shift-a = 'move-node-to-workspace A'
     alt-shift-b = 'move-node-to-workspace B'
     alt-shift-c = 'move-node-to-workspace C'
     alt-shift-d = 'move-node-to-workspace D'
-    # alt-shift-e = 'move-node-to-workspace E'
-    # alt-shift-f = 'move-node-to-workspace F'
-    # alt-shift-g = 'move-node-to-workspace G'
-    # alt-shift-i = 'move-node-to-workspace I'
-    # alt-shift-m = 'move-node-to-workspace M'
-    # alt-shift-n = 'move-node-to-workspace N'
-    # alt-shift-o = 'move-node-to-workspace O'
-    # alt-shift-p = 'move-node-to-workspace P'
-    # alt-shift-q = 'move-node-to-workspace Q'
-    # alt-shift-r = 'move-node-to-workspace R'
-    # alt-shift-s = 'move-node-to-workspace S'
-    # alt-shift-t = 'move-node-to-workspace T'
-    # alt-shift-u = 'move-node-to-workspace U'
-    # alt-shift-v = 'move-node-to-workspace V'
-    # alt-shift-w = 'move-node-to-workspace W'
-    # alt-shift-x = 'move-node-to-workspace X'
-    # alt-shift-y = 'move-node-to-workspace Y'
-    # alt-shift-z = 'move-node-to-workspace Z'
+    alt-shift-e = 'move-node-to-workspace E'
+    alt-shift-g = 'move-node-to-workspace G'
+    alt-shift-i = 'move-node-to-workspace I'
+    alt-shift-m = 'move-node-to-workspace M'
+    alt-shift-n = 'move-node-to-workspace N'
+    alt-shift-o = 'move-node-to-workspace O'
+    alt-shift-p = 'move-node-to-workspace P'
+    alt-shift-q = 'move-node-to-workspace Q'
+    alt-shift-r = 'move-node-to-workspace R'
+    alt-shift-s = 'move-node-to-workspace S'
+    alt-shift-t = 'move-node-to-workspace T'
+    alt-shift-u = 'move-node-to-workspace U'
+    alt-shift-v = 'move-node-to-workspace V'
+    alt-shift-w = 'move-node-to-workspace W'
+    alt-shift-x = 'move-node-to-workspace X'
+    alt-shift-y = 'move-node-to-workspace Y'
+    alt-shift-z = 'move-node-to-workspace Z'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
@@ -206,38 +222,52 @@ automatically-unhide-macos-hidden-apps = false
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
 
-# force certain workspaces to certain monitors
-[workspace-to-monitor-force-assignment]
-1 = 'main'                         # Monitor sequence number from left to right. 1-based indexing
-2 = 'main'                       # Main monitor
-3 = 'main'                  # Non-main monitor in case when there are only two monitors
-4 = 'main'                  # Non-main monitor in case when there are only two monitors
-5 = 'main'
-6 = 'main'
-7 = 'main'
-8 = 'main'
-9 = 'main'
-A = 'secondary'                         # Monitor sequence number from left to right. 1-based indexing
-B = 'secondary'                       # Main monitor
-C = 'secondary'                  # Non-main monitor in case when there are only two monitors
-D = 'secondary'                  # Non-main monitor in case when there are only two monitors
-# E = 'secondary'
-# F = 'secondary'
-# G = 'secondary'
-# H = 'secondary'
-# I = 'secondary'
-
 [[on-window-detected]]
 if.app-id = "com.microsoft.VSCode"
-run = "move-node-to-workspace 5"
+run = "move-node-to-workspace V"
 
 [[on-window-detected]]
-if.app-id = "us.zoom.xos"
-run = "move-node-to-workspace B"
+if.app-id = "com.github.wez.wezterm"
+run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = "company.thebrowser.Browser"
-if.window-title-regex-substring = "^Space"
+run = "move-node-to-workspace A"
+
+[[on-window-detected]]
+if.app-name-regex-substring = '^Claude$'
+run = "move-node-to-workspace C"
+
+[[on-window-detected]]
+if.app-id = "com.emclient.mail.client"
+run = "move-node-to-workspace E"
+
+[[on-window-detected]]
+if.app-id = "md.obsidian"
+run = "move-node-to-workspace O"
+
+[[on-window-detected]]
+if.app-id = "com.apple.MobileSMS"
+run = ["layout accordion horizontal", "move-node-to-workspace S"]
+
+[[on-window-detected]]
+if.app-id = "com.apple.FaceTime"
+run = ["layout accordion horizontal", "move-node-to-workspace S"]
+
+[[on-window-detected]]
+if.app-id = "com.apple.systemsettings"
+run = ["layout accordion horizontal", "move-node-to-workspace S"]
+
+[[on-window-detected]]
+if.app-id = "us.zoom.xos"
+run = ["layout accordion horizontal", "move-node-to-workspace M"]
+
+[[on-window-detected]]
+if.app-id = "com.apple.Terminal"
+run = "layout floating"
+
+[[on-window-detected]]
+if.app-id = "com.apple.finder"
 run = "layout floating"
 
 # there must be command to identify title of the window and move it
